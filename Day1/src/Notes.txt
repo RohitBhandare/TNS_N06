@@ -1,0 +1,7 @@
+control statement
+
+1. decision making statement
+a) if else
+b) cascaded if else
+c) nested if else
+d) switch case

@@ -10,7 +10,12 @@ public class IncDecOperator {
 		
 		int c=a++ - --b; // c=a, c=a+1
 				
+		int d=a++ + --a - a++; // a
 		System.out.println(c);
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(d);
 
 
 	}
