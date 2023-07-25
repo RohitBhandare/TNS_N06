@@ -4,26 +4,19 @@ public class CascadedIfElse {
 
 	public static void main(String[] args) {
 		
-		int age=40;
-		
-		if(age>20) {
-			System.out.println("Age is greater than 20");
-			if(age>60) {
-				System.out.println("Age is greater than 60");
-				if(age>70) {	
-					System.out.println("Age is greater than 60");
-				}
-				else {
-					System.out.println("Age is greater than 60");
-				}
-			}
-			else {
-				
-			}
-		}
-		else {
-			
-		}
+		 int score = 85; 
+
+	        if (score >= 90) {
+	            System.out.println("Grade: A");
+	        } else if (score >= 80 && score <= 89) {
+	            System.out.println("Grade: B");
+	        } else if (score >= 70 && score <= 79) {
+	            System.out.println("Grade: C");
+	        } else if (score >= 60 && score <= 69) {
+	            System.out.println("Grade: D");
+	        } else {
+	            System.out.println("Grade: F");
+	        }
 
 	}
 
