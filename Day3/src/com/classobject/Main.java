@@ -12,7 +12,6 @@ public class Main {
 		einstein.setEmail("xyz@gmail.com");
 		einstein.setSalary(30_00_000);
 		
-		
 		System.out.println(einstein);
 
 	}

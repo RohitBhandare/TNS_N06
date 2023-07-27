@@ -1,35 +1,46 @@
 package com.classobject;
 
-class Employee {
+class Employee<T> {
 	
 
-	private String ename;
-	private String email;
-	private int eid;
-	private long salary;
+	private T ename;
+	private T email;
+	private T eid;
+	private T salary;
 	
-	public String getEname() {
+	
+	public Employee() {
+		super();
+	}
+	public Employee(T ename, T email, T eid, T salary) {
+		super();
+		this.ename = ename;
+		this.email = email;
+		this.eid = eid;
+		this.salary = salary;
+	}
+	public T getEname() {
 		return ename;
 	}
-	public void setEname(String ename) {
+	public void setEname(T ename) {
 		this.ename = ename;
 	}
-	public String getEmail() {
+	public T getEmail() {
 		return email;
 	}
-	public void setEmail(String email) {
+	public void setEmail(T email) {
 		this.email = email;
 	}
-	public int getEid() {
+	public T getEid() {
 		return eid;
 	}
-	public void setEid(int eid) {
+	public void setEid(T eid) {
 		this.eid = eid;
 	}
-	public long getSalary() {
+	public T getSalary() {
 		return salary;
 	}
-	public void setSalary(long salary) {
+	public void setSalary(T salary) {
 		this.salary = salary;
 	}
 	
